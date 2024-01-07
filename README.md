@@ -8,18 +8,18 @@ Programmation d'un NanoGPT, encadrée par Julien Velcin, dans le cadre du premie
 
 Le programme central est dans le fichier `nanoGPTv3v2.py`, et un exemple d'utilisation est donné dans le fichier `mainNanoGPT.py`.
 
-On a différents dossier qui stocke plusieurs sortent de fichier : 
+On a plusieurs dossiers qui stockent différentes sortes de fichiers : 
 * Le dossier `source` permet de stocker les textes (`.txt`) qui servent à l'apprentissage des modèles.
 * Le dossier `saveStat` permet de stocker les fichiers `.stat` qui servent à l'analyse
-* Le dossier `saveGPT` permet de stocket une sauvegarde des modèles, pour les utiliser plus tard*
+* Le dossier `saveGPT` permet de stocker une sauvegarde des modèles, pour les utiliser plus tard
   
-Ensuite, on a différents programme que l'on peut utiliser après la création des modèles :
-* `generationGPT.py` : permet de génére du texte à partir de modèle `.gpt` sauvegarder
-* Tous les programmes en `stats_***.py` qui permette de faire une analyse des différent hyperparamètres 
+Ensuite, on a différents programmes que l'on peut utiliser après la création des modèles :
+* `generationGPT.py` : permet de générer du texte à partir de modèle `.gpt` sauvegardé
+* Tout les programmes en `stats_***.py` qui permettent de faire une analyse des différents hyperparamètres 
 
 ## Package nécessaire
 
-Pour que notre programme s'execute correctement, nous avont besoin des packages suivants : 
+Pour que notre programme s'exécute correctement, nous avons besoin des packages suivants : 
 * os, sys, time, pickle
 * numpy, matplotlib, scipy
 * torch
